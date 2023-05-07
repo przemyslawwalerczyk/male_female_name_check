@@ -1,6 +1,6 @@
 name = input('Provide a Polish name: ')
 
-if name.endswith('a') == True and name != "Kuba":
+if (name.endswith('a') and name != 'Kuba'):
   print('This is a female name')
-elif (name.endswith('a') == False) or name == "Kuba":
+else:
   print('This is a male name')
